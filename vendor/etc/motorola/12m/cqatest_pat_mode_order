@@ -1,0 +1,5 @@
+com.motorola.motocit.vibrator.VibratorTest
+com.motorola.motocit.hostmode.Hostmode
+com.motorola.motocit.audio.AudioLoopBack
+com.motorola.motocit.display.testPatterns.BlackPattern
+com.motorola.motocit.display.testPatterns.WhiteWithBlackBorder
