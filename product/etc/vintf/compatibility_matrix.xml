@@ -1,0 +1,92 @@
+<!--
+    Input:
+        framework_compatibility_matrix.xml
+        moto_fw_product_compatibility_matrix_touch_optional.xml
+        framework_compatibility_matrix.xml
+-->
+<compatibility-matrix version="2.0" type="framework">
+    <hal format="hidl" optional="true">
+        <name>com.motorola.hardware.biometric.fingerprint</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMotoFingerPrint</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IMotoFingerPrintSensorTest</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>com.motorola.hardware.biometric.fingerprint</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMotoFingerPrint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>com.motorola.hardware.display.touch</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMotTouch</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>motorola.hardware.health</name>
+        <version>2.0</version>
+        <interface>
+            <name>IMotHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>motorola.hardware.vibrator</name>
+        <version>1.0</version>
+        <interface>
+            <name>IMotVibrator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="false">
+        <name>motorola.hardware.wifi.supplicant</name>
+        <version>1.1</version>
+        <interface>
+            <name>ISupplicantMot</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.egistec.hardware.fingerprint</name>
+        <version>2.0</version>
+        <interface>
+            <name>IBiometricsFingerprintEts</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.fpsensor.hardware.fpsensorhidlsvc</name>
+        <version>2.0</version>
+        <interface>
+            <name>IFpsensorHidlSvc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <version>2.1</version>
+        <interface>
+            <name>IGoodixFingerprintDaemon</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.nxp.nxpnfc</name>
+        <version>2.0</version>
+        <interface>
+            <name>INxpNfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

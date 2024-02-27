@@ -1,0 +1,21 @@
+## msi-user 11 RZKS31.Q3-25-15-11 feee1 release-keys
+- Manufacturer: motorola
+- Platform: lito
+- Codename: kiev
+- Brand: motorola
+- Flavor: msi-user
+- Release Version: 11
+- Kernel Version: 4.19.157
+- Id: RZKS31.Q3-25-15-11
+RZKS31.Q3-25-15-11
+- Incremental: feee1
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-US
+- Screen Density: undefined
+- Fingerprint: motorola/kiev_retail/kiev:11/RZKS31.Q3-25-15-11/feee1:user/release-keys
+- OTA version: 
+- Branch: msi-user-11-RZKS31.Q3-25-15-11-feee1-release-keys
+- Repo: motorola_kiev_dump
